@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AccountFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="255dp"
+        android:orientation="vertical"
+        android:background="@drawable/backprofile">
+
+        <ImageView
+            android:id="@id/image"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="28dp"
+            android:src="@drawable/ic_baseline_account_circle1_24" />
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="211dp"
+            android:layout_height="61dp"
+            android:layout_marginStart="125dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:layout_marginRight="10dp"
+            android:textSize="28sp" />
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/nameText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="15dp"
+                    android:hint="Name :"
+                    android:paddingLeft="5sp"
+                    android:textColor="@color/blue"
+                    android:textSize="28sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/name_p"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:textSize="28sp"
+                    android:inputType="textCapSentences"
+                    android:enabled="false" />
+
+            </LinearLayout>
+
+
+
+
+
+            <TextView
+                android:id="@+id/emailText"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="5sp"
+                android:textColor="@color/blue"
+                android:hint="Email :"
+                android:textSize="28sp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/email_p"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginTop="1dp"
+                android:textSize="28sp"
+                android:enabled="false" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/skillText"
+                    android:layout_width="88dp"
+                    android:layout_height="48dp"
+                    android:paddingLeft="5sp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/blue"
+                    android:hint="Skills :"
+                    android:textSize="28sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/skill_p"
+                    android:layout_width="340dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:enabled="false"
+                    android:textSize="28dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/deptText"
+                    android:layout_width="88dp"
+                    android:layout_height="48dp"
+                    android:paddingLeft="5sp"
+                    android:textColor="@color/blue"
+                    android:layout_marginTop="15dp"
+                    android:hint="Dept :"
+                    android:textSize="28sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/dept_p"
+                    android:layout_width="340dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:enabled="false"
+                    android:textSize="28dp" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/interestedareasText"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="5sp"
+                android:textColor="@color/blue"
+                android:hint="Area of Interests :"
+                android:textSize="30sp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/interestedareas_p"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="1dp"
+                android:textSize="28dp"
+                android:enabled="false"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/qualificationText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="15dp"
+                    android:paddingLeft="5sp"
+                    android:textColor="@color/blue"
+                    android:hint="Qualifications :"
+                    android:textSize="28sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/qualification_p"
+                    android:layout_width="210dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="18dp"
+                    android:enabled="false"
+
+                    android:textSize="28dp" />
+            </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/designationText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="15dp"
+                    android:paddingLeft="5sp"
+                    android:textColor="@color/blue"
+                    android:hint="Designation :"
+                    android:textSize="28sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/designation_p"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="1dp"
+                    android:enabled="false"
+
+                    android:textSize="28dp" />
+
+
+
+            <TextView
+                android:id="@+id/fieldText"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="5sp"
+                android:textColor="@color/blue"
+                android:hint="Fields/Interested areas:-"
+                android:textSize="28sp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/field_p"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginLeft="1dp"
+                android:enabled="false"
+                android:layout_marginTop="13dp"
+                android:textSize="28dp" />
+
+
+
+                <TextView
+                    android:id="@+id/descText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="15dp"
+                    android:paddingLeft="5sp"
+                    android:textColor="@color/blue"
+                    android:hint="Description:-"
+                    android:textSize="28sp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/desc_p"
+                android:layout_width="363dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:enabled="false"
+                android:textSize="28dp" />
+
+            <Button
+                android:id="@+id/update_p"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:paddingTop="5dp"
+                android:background="@drawable/button"
+                android:text="Update" />
+
+            <TextView
+                android:id="@+id/userposts"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="5sp"
+                android:hint="Posts :"
+                android:textSize="28sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/startuppost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@drawable/button2"
+                    android:gravity="center"
+                    android:text="Startup" />
+
+                <Button
+                    android:id="@+id/projectpost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@drawable/button2"
+                    android:gravity="center"
+                    android:text="Projects" />
+
+                <Button
+                    android:id="@+id/eventpost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@drawable/button2"
+                    android:gravity="center"
+                    android:text="Events" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

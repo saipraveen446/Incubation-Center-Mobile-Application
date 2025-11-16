@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name"> Incubation Center</string>
+
+
+    <string name="email"><u>n160446@rguktn.ac.in</u></string>
+    <string name="Streamname">DropDownMenuExample</string>
+    <string-array name="Stream">
+        <item></item>
+    </string-array>
+    <string name="search_hint">Search for an Event...</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="About_Rgukt">  <b>Ecell Incubation center  is  Startup hub</b>\n\n
+        It coordinates and leverages the synergies of various strands of excellence driving innovation and entrepreneurship at the Institute, which consists of cutting-edge research and industrial interactions.\n\n
+
+ Rgukt Ecell is an organization that helps startup companies and individual entrepreneurs to develop their businesses by providing a fullscale range of services starting with management training and office space and ending with venture capital financing.\n\n
+
+Objectives for Incubation \n ■ Wider business environment.\n ■ Funding strategies and sustainability. \n■ Ownership and management.\n ■Monitoring.\n\n
+
+The Rgukt Ecell Incubation center fosters innovation,research, and entrepreneurial activities in technology-based areas. \n\n
+        The Ecell Incubation center motivates and promotes scientific temper among the students and provides a platform to incubate their innovative ideas into commercially viable products.\n\n
+        Incubation support\n
+Rgukt Ecell also help start-ups and already existing companies(which is started by rguktians) to develop by providing services such as fund support, management, mentorship, co-working space, technological assistance or everything that is required for a business to grow.\n\n
+
+Incubation of innovative ideas/technology in the potential sectors including Agro and rural based industry. To provide a platform for speedy commercialization of technologies developed by host institutions or with the assistance academic and RandD institution of the country or Internationally.\n\n
+         A Task Force was created under the Chairmanship of Prof. K.C. Reddy. This Task Force produced a report to the government recommending the structure and functioning of the proposed institutions.\n\n\n
+
+       Technology Business Incubator\n\n
+The technology business incubator also has a wide spectrum of incubatee companies. The current entrepreneurs (a majority of whom are funded by either angel or venture capital funds) comprise student or faculty teams from the Industrial Design Centre and the departments of  Chemical Engineering, Computer Science and Engineering, Electrical Engineering, Mechanical Engineering.\n\n
+     Entrepreneurship cell\n\n
+The Entrepreneurship Cell at IIIT Rgukt Nuzvid(commonly known as E-Cell) is a student organisation which motivates students to bring out their latent spirit of enterprise. It works throughout the year, showing students the opportunities that lie within their grasp and the path they can take to make a difference. Its initiatives include Eureka, the annual international business plan competition; Ideaz, the pan IIIT business idea contest; E-Summit, the entrepreneurship summit;\n\n
+
+    </string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="privacy_policy">
+
+        <b>What we collect</b>\n\n
+
+We may collect from you a personal  non-personal information which necessary to render our services like person identification, contact Information including email address, demographic Information such as postcode, preferences and interests, etc.\n\n
+   <b> What we do with the information we gather</b>\n\n
+
+We require this information to understand your needs and provide you with a better service, and in particular for the following reasons:\n\n
+- Internal record keeping.\n
+- We may use the information to improve our products and services.\n
+- We may periodically send promotional emails about new products, special offers or other information which we think you may find interesting using the email address which you have provided.\n
+- From time to time, we may also use your information to contact you for  research purposes. We may contact you by email, phone, mail. We may use the information to customize the website according to your interests.
+-To improve customer services\n
+-To improve our website\n\n
+
+        <b>SECURITY</b>\n\n
+We adopt appropriate data collection, storage and processing practices and security measures to protect against unauthorized access, alteration, disclosure or destruction of your personal information, username, password, other information and data stored on our Site.</string>
+</resources>
